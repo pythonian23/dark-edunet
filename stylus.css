@@ -1,3 +1,53 @@
 @-moz-document domain("keduon.net") {
-    @import url("https://raw.githubusercontent.com/pythonian23/dark-edunet/main/style.css");
+    :root {
+        --gLow: 0px 0px 7px 2px lime;
+        --gRad1: linear-gradient(30deg, #0ff, #f0f);
+        --gRad2: linear-gradient(30deg, #00f, #f00);
+    }
+
+    video.jss283 {
+        width: 320px !important;
+        height: 180px !important;
+    }
+
+    div#roomTitle, p.jss94, div.jss108, div.jss89, div.jss105, div.jss104, div.jss296, div.jss87, div.jss156, div.MuiInputBase-root, div.jss557 input, div.jss562, div.jss294, .jss88, .jss194, .jss200, .jss155, .jss412, .jss419 {
+        background: #1d1921 !important;
+        color: #fff !important;
+    }
+
+    button.jss95 span {
+        background: none;
+    }
+
+    button.jss291, button.jss291:hover, button.jss114, button.jss114:hover, button.jss130, button.jss130:hover, button.jss286, a.jss35, button.jss25 {
+        background: var(--gRad2) !important;
+        box-shadow: var(--gLow);
+        color: #fff;
+    }
+
+    button.jss291 {
+        height: 180px;
+    }
+
+    div#roomTitle {
+        border: none;
+    }
+
+    div.jss105, div.jss85, div.jss156, div.jss27, .jss194, .jss155 {
+        box-shadow: var(--gLow);
+        z-index: 100;
+    }
+
+    p.jss92, div.jss148, p.jss141, div.jss184, p {
+        color: #fff !important;
+    }
+
+    div.jss184::before, div.jss184::after {
+        background-color: #fff;
+    }
+
+    .jss147, .jss143, .jss413 {
+        color: black !important
+    }
+
 }
